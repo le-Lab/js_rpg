@@ -66,6 +66,7 @@ const checkRace = (hero, race) => {
 
   switch (lowerCaseRace) {
     case `human`:
+    // TODO: faire humain
       break;
     case `elfe`:
       hero.skills.persuade++;

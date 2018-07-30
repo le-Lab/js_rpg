@@ -10,4 +10,24 @@ const mainHero = new Hero(name, 10, gender, race, characterRole);
 checkRace(mainHero, mainHero.race);
 checkRace(mainHero, mainHero.characterRole);
 
-console.log(mainHero);
+console.log(
+  `` // TODO: ecrire l'histoire des personnages.
+);
+
+mainHero.equipedWeapon({
+  name: prompt(`Quelle arme choississez-vous ? (Epée, Bâton, Dague, Arc)`),
+  minDamage: 1,
+  maxDamage: 6
+});
+
+console.log(
+  `` // TODO: histoire des armes.
+);
+mainHero.equipedArmor({
+  name: `Bob`,
+  attackBarrierBonus: 3
+});
+
+console.log(
+  `` // TODO: histoire des equipements.
+);
